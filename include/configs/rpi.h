@@ -56,6 +56,9 @@
 
 /* Environment */
 
+#define CONFIG_BOOTCOUNT_ENV
+#define CONFIG_BOOTCOUNT_LIMIT
+
 /* Shell */
 
 /* Environment */
