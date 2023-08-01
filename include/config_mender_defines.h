@@ -24,9 +24,9 @@
 /* For sanity checks. */
 #define MENDER_BOOTENV_SIZE 0x4000
 
-#define MENDER_BOOT_KERNEL_TYPE "bootm"
-#define MENDER_KERNEL_NAME "uImage"
-#define MENDER_DTB_NAME "bcm2710-rpi-cm3.dtb"
+#define MENDER_BOOT_KERNEL_TYPE "booti"
+#define MENDER_KERNEL_NAME "vmlinuz"
+#define MENDER_DTB_NAME "bcm2711-rpi-cm4.dtb"
 #define MENDER_UBOOT_PRE_SETUP_COMMANDS ""
 #define MENDER_UBOOT_POST_SETUP_COMMANDS ""
 #endif /* !HEADER_CONFIG_MENDER_DEFINES_H */

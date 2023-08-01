@@ -41,6 +41,7 @@
 #endif
 
 #define MENDER_ENV_SETTINGS                                             \
+    "usb_pgood_delay=10000\0"                                           \
     MENDER_DEFAULT_ALTBOOTCMD                                           \
     MENDER_UBI_SETTINGS                                                 \
                                                                         \
